@@ -1,0 +1,171 @@
+html, body, div, p
+{
+  margin:0; padding:0;
+}
+
+.image1{
+  background-image: url('images/green-vegetables-on-brown-wooden-chopping-board-3952047.jpg');
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  
+}
+
+#nav-container{
+  display: flex;
+  position: fixed;
+  top:0;
+  width: 100%;
+  overflow: auto;
+  height: auto;
+  justify-content: space-between;
+}
+
+#text{
+  margin:auto;
+  display:flex;
+  width: 100%;
+  height:100vh;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+h1{
+  font-family: Tangerine, serif;
+  font-size: 92px;
+  text-decoration: underline;
+  color: white;
+  margin: auto;
+  text-align: center;
+  }
+
+h2{
+  font-family: Tangerine, serif;
+  font-size: 72px;
+  color: white;
+  margin: auto;
+  align-items: center;
+}
+
+.links {
+  font-family: Tangerine, serif;
+  display: inline-block;
+  text-align: center;
+  padding: 14px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bolder;
+}
+
+.image2{
+  background-image: url('images/human-holding-a-bread-745988.jpg');
+  background-size:cover;
+  background-position: center;
+  width: 40%;
+  height: auto;
+   
+}
+
+.image3{
+  background-image: url('images/green-pineapple-fruit-with-brown-framed-sunglasses-beside-1161547.jpg');
+  background-size:cover;
+  width: 40%;
+  height: auto;
+    
+}
+
+
+
+.image5{
+  background-image: url('images/cooked-pasta-on-brown-wooden-bowl-803963.jpg');
+  background-size:cover;
+  background-position: center;
+  width: 40%;
+  height: auto;
+  
+}
+
+p{
+  text-align: left;
+}
+a{
+  text-decoration:none;
+  font-family: Tangerine, serif;
+}
+
+#leftSide1, #leftSide2, #rightSide2, #rightSide1{
+  border: 1px solid black;
+  color: white;
+
+  }
+  
+.container1 {
+  font-family: Tangerine, serif;
+  width: 100%;
+  margin: 0 auto; 
+  display:flex;
+  justify-content: last baseline;
+  
+}
+
+.container2 {
+  font-family: Tangerine, serif;
+  width: 100%;
+  margin: 0 auto; 
+  display:flex;
+  flex-flow: row-reverse wrap;
+  
+  
+}
+
+#leftSide1 {
+  padding: 140px 710px 140px 20px;
+  background-color: black;
+  margin: 0 0 0 0;
+  width: 60%;
+  vertical-align: center; 
+  font-size: 32px;
+  white-space: nowrap;
+  box-sizing: border-box;
+  }
+
+ 
+#leftSide2 {
+    padding: 140px 710px 140px 20px;
+    background-color: darkslategray;
+    margin: 0 0 0 0;
+    width:60%;
+    font-size: 32px;
+    white-space: nowrap;
+    box-sizing: border-box;
+  }
+  
+#rightSide2 {
+  padding: 140px 710px 140px 20px;
+  background-color: darkslategray;
+  margin: 0 0 0 0;
+  width: 60%;
+  font-size: 32px;
+  white-space: nowrap;
+  text-align: top;
+  box-sizing: border-box;
+}
+
+#rightSide1 {
+    padding: 140px 710px 140px 20px;
+    background-color: lightslategray;
+    margin: 0 0;
+    width: 60%;
+    font-size: 32px;
+    white-space: nowrap;
+    box-sizing: border-box;
+}
+
+    
+   
+input {
+  width: 190px;
+   
+   }     
